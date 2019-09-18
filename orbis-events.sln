@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbisEvents", "src\OrbisEvents\OrbisEvents.csproj", "{239F28E6-95B9-4920-841C-E47A2408B24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrbisEvents.UnitTests", "tests\OrbisEvents.UnitTests\OrbisEvents.UnitTests.csproj", "{53446E8E-F6AE-4D56-A8E5-9B414849A5BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{239F28E6-95B9-4920-841C-E47A2408B24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239F28E6-95B9-4920-841C-E47A2408B24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239F28E6-95B9-4920-841C-E47A2408B24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239F28E6-95B9-4920-841C-E47A2408B24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53446E8E-F6AE-4D56-A8E5-9B414849A5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53446E8E-F6AE-4D56-A8E5-9B414849A5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53446E8E-F6AE-4D56-A8E5-9B414849A5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53446E8E-F6AE-4D56-A8E5-9B414849A5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB6DC5AB-B712-458D-98FB-812D0D9BC4C3}
+	EndGlobalSection
+EndGlobal
