@@ -1,6 +1,6 @@
 # Orbis Events
 
-Starter project for stage 2 recruitment
+Event Registration System
 
 # The Problem
 
@@ -30,4 +30,18 @@ The new system should:
 # The Starter Project
 This repo contains the beginnings of a new and improved event registration system. It is written with C# using Asp.Net Core 2.2. It uses an SQLite database with Entity Framewrok Core 2 for ORM.
 
-The intent is to give you ideas on how you could structure the project. You are free deviate from this structure as you see fit to meet all the requirements laid out.
+What it has:
+
+- Minimum set of models needed to complete requirements (see src/OrbisEvents/Data/Models)
+- Minimum set of controllers needed to complete requirements (see src/OrbisEvents/Controllers)
+- Database (orbisEvents.db) & Database access layer using Entity Framework Core 2 (see src/OrbisEvents/Data/AppDbContext.cs)
+- Simple landing page
+
+What it needs:
+
+- Basic user authentication (registration & login. password encryption optional)
+- Pages for creating events
+- Pages for viewing & registering for events
+
+The intent is to give you ideas on how you could structure the project. You are free to deviate from this structure as you see fit to meet all the requirements laid out. You are also free to add any additional
+features you feel might be useful to the overall experience of the system.
