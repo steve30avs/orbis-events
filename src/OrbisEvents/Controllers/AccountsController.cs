@@ -2,7 +2,7 @@
 
 namespace OrbisEvents.Controllers
 {
-    public class AccountController : Controller
+    public class AccountsController : Controller
     {
         public IActionResult Register()
         {
