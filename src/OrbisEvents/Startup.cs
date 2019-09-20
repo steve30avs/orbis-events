@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -39,6 +40,10 @@ namespace OrbisEvents
             services.AddScoped<RegistrationRepository>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddIdentity <OrbisEvents.Data.Models.User,IdentityRole>()
+                .AddSignInManager<SignInManager<OrbisEvents.Data.Models.User>>()
+                .AddDefaultTokenProviders();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
